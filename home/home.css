@@ -220,3 +220,126 @@ a {
 }
 
 
+/* Top livros recomendados */
+
+.top-livros{
+    padding: 50px 120px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 100px; 
+}
+
+.livros-recomendados {
+    display: grid;
+
+    grid-template-columns: repeat(4, 20%);
+    gap: 10%;
+
+    justify-content: center;
+
+    text-align: center;
+    
+}
+
+.livros h3  {
+    margin-bottom: 30px;
+
+}
+
+.rodape {
+
+    background-color: var(--azul-escuro);
+    color: #FFFFFF;
+
+    
+    padding: 150px;
+ }
+
+.bibliotec {
+    display: grid;
+
+    grid-template-columns: repeat(3, 20%);
+    gap: 10%;
+
+    justify-content: space-around;
+}
+
+
+
+.biblioteca {
+       display: flex;
+    flex-direction: column;
+    
+}
+
+.biblioteca h3 {
+    text-decoration: none;
+    color: #2ab2ab;
+    margin-bottom: 20px;
+}
+
+.biblioteca p {
+    margin-bottom: 10px;
+}
+
+.quem-somos {
+       display: flex;
+    flex-direction: column;
+    
+}
+
+.quem-somos h3 {
+    text-decoration: none;
+    color: #2ab2ab;
+    margin-bottom: 20px;
+}
+
+.quem-somos p {
+    margin-bottom: 10px;
+}
+
+.senai {
+    display: grid;
+
+    grid-template-columns: repeat(3, 20%);
+    gap: 10%;
+
+    justify-content: space-around;
+}
+
+.midia {
+     text-decoration: none;
+    color: #2ab2ab;
+}
+
+.linha span {
+    display: flex;
+    width: 1200px;
+    height: 1px;
+    background-color: var(--branco);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
