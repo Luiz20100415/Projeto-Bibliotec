@@ -222,6 +222,92 @@ a {
 
 /* Top livros recomendados */
 
+.acervo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+
+    padding: 50px 120px;
+}
+
+.livros {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 5%;
+}
+
+.livro {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+}
+
+.livro img {
+    height: 300px;
+}
+
+.livro h3 {
+    text-transform: uppercase;
+    font-size: 1em;
+    width: 65%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .top-livros{
     padding: 50px 120px;
     display: flex;
@@ -321,7 +407,7 @@ a {
     width: 1200px;
     height: 1px;
     background-color: var(--branco);
-}
+} */
 
 
 
