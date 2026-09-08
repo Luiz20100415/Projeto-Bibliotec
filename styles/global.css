@@ -11,6 +11,8 @@
     --texto: #26333D;
     --branco: #FFFFFF;
     --cor-destaque: #2FD6CB;
+    --fundos: #E9F0EF;
+    --textos-paginas: #535353;
 }
 
 html {
@@ -21,5 +23,42 @@ body {
      font-family: "Montserrat", sans-serif;
      background-color: var(--branco);
      color: var(--texto);
+}
+
+.cabecalho {
+    background-color: var(--azul-escuro);
+
+    display: flex;
+    /* flex-direction: row; */
+
+    /* alinha no sentido do flex */
+    justify-content: space-between;
+
+    /* alinha no sentido contrario do flex */
+    align-items: center;
+
+    padding: 0 120px;
+
+    height: 10vh;
+    /* 10% da vizualização vertical do dispositivo*/
+}
+
+
+a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navegacao a {
+    text-transform: uppercase;
+    font-size: 1em;
+    /* equivale a 16px*/
+    font-weight: 500;
 }
 

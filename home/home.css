@@ -1,39 +1,9 @@
 /* cabeçalho */
 
 
-a {
-    color:var(--branco);
-    text-decoration: none; 
-}
 
-.cabecalho {
-    background-color: var(--azul-escuro);
 
-    display: flex;
-    /* flex-direction: row; */
 
-    /* alinha no sentido do flex */
-    justify-content: space-between;
-
-    /* alinha no sentido contrario do flex */
-    align-items: center;
-
-    padding: 0 120px;
-
-    height: 10vh; /* 10% da vizualização vertical do dispositivo*/
-}
-
-.navegacao {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.navegacao a {
-    text-transform: uppercase;
-    font-size: 1em; /* equivale a 16px*/
-    font-weight: 500;
-}
 
 /* CONTEUDO PRINCIPAL */
 
@@ -60,7 +30,7 @@ a {
 
     display: flex;
     flex-direction: column;
-     
+
     align-items: flex-start;
     justify-content: center;
 
@@ -125,7 +95,7 @@ a {
     align-items: center;
     justify-content: space-between;
 
-    gap: 100px; 
+    gap: 100px;
 }
 
 .beneficios-lista {
@@ -144,16 +114,18 @@ a {
     align-items: center;
     justify-content: center;
 
-    padding: 80px 20px 50px; /* em cima -> direita e esquerda -> embaixo*/
+    padding: 80px 20px 50px;
+    /* em cima -> direita e esquerda -> embaixo*/
 
     border: 1px solid var(--azul-escuro);
     border-radius: 30px;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25); /* x -> y -> blur -> cor com transparência*/ 
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
+    /* x -> y -> blur -> cor com transparência*/
 
     text-align: center;
 
-/* Cria referencia de posicionamneto  para o icone, quando o icone for posicionado, usa esse card como referencia. */
-/* Sem isso, o circulo poderia usar outro elemento da pagina como referencia e sair passeando pelo layout. */
+    /* Cria referencia de posicionamneto  para o icone, quando o icone for posicionado, usa esse card como referencia. */
+    /* Sem isso, o circulo poderia usar outro elemento da pagina como referencia e sair passeando pelo layout. */
     position: relative;
 
 }
@@ -169,7 +141,7 @@ a {
 
     width: 35%;
     height: 30%;
-    
+
     /* Retira o icone do fluxo normal, com o absolute ele pode ficar por cima do card */
     position: absolute;
 
@@ -335,15 +307,16 @@ a {
     margin-bottom: 30px;
 
 }
+    /*  */
 
 .rodape {
 
     background-color: var(--azul-escuro);
     color: #FFFFFF;
 
-    
+
     padding: 150px;
- }
+}
 
 .bibliotec {
     display: grid;
@@ -357,9 +330,9 @@ a {
 
 
 .biblioteca {
-       display: flex;
+    display: flex;
     flex-direction: column;
-    
+
 }
 
 .biblioteca h3 {
@@ -373,9 +346,9 @@ a {
 }
 
 .quem-somos {
-       display: flex;
+    display: flex;
     flex-direction: column;
-    
+
 }
 
 .quem-somos h3 {
@@ -395,37 +368,18 @@ a {
     gap: 10%;
 
     justify-content: space-around;
+    
 }
 
 .midia {
-     text-decoration: none;
+    text-decoration: none;
     color: #2ab2ab;
 }
 
-.linha span {
+span {
     display: flex;
-    width: 1200px;
+    width: 100%;
     height: 1px;
     background-color: var(--branco);
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
+    margin-bottom: 15px;
+}
